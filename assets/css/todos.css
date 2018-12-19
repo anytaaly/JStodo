@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(90deg, #4ecdc4, #556270);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.todo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 0;
+  padding: 0 15px;
+  align-items: center;
+  width: 450px;
+  background: #3982ba;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.input-todo {
+  width: 450px;
+  margin: 0px;
+}
+.todos {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  list-style-type: none;
+}
+.todos li {
+  padding: 5px;
+}
+.delete-icon {
+  color: white;
+  background: red;
+  padding: 10px;
+}
