@@ -22,16 +22,25 @@
     ></script>
   </head>
   <body>
-    <div class="todo-header">
-      <h1 class="item">TO-DO LIST</h1>
-      <i class="fas fa-plus"></i>
+    <div class="container">
+      <div class="todo-header">
+        <h1 class="item">TO-DO LIST</h1>
+        <i class="fas fa-plus"></i>
+      </div>
+      <input type="text" class="input-todo" placeholder="Add New Todo" />
+      <ul class="todos">
+        <li class="todo">
+          <i class="fas fa-trash-alt delete-icon"></i> Buy Robes
+        </li>
+        <li class="todo">
+          <i class="fas fa-trash-alt delete-icon"></i> Dishes
+        </li>
+        <li class="todo">
+          <i class="fas fa-trash-alt delete-icon"></i> Groceries
+        </li>
+      </ul>
     </div>
-    <input type="text" class="input-todo" placeholder="Add New Todo" />
-    <ul class="todos">
-      <li><i class="fas fa-trash-alt delete-icon"></i> Buy Robes</li>
-      <li><i class="fas fa-trash-alt delete-icon"></i> Dishes</li>
-      <li><i class="fas fa-trash-alt delete-icon"></i> Groceries</li>
-    </ul>
+
     <script type="text/javascript" src="assets/js/todos.js"></script>
   </body>
 </html>
