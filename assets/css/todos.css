@@ -37,3 +37,8 @@ body {
   background: red;
   padding: 10px;
 }
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
