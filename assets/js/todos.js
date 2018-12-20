@@ -1,5 +1,5 @@
 //Check off the specific Todos by clicking
-var todo = document.querySelectorAll(".todo");
-todo.addEventListener("click", () => {
+$("li").click(function() {
+  $(this).toggleClass("completed");
   console.log("clicked");
 });
